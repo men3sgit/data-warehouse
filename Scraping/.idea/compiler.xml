@@ -9,5 +9,8 @@
         <module name="DataWarehouse" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DataWarehouse" target="" />
+    </bytecodeTargetLevel>
   </component>
 </project>

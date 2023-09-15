@@ -45,7 +45,6 @@ public class Crawler implements Runnable, DataSource<Currency> {
         File file = new File("D:\\Exercise Java\\springs\\DataWarehouse\\data\\data.csv");
         PrintWriter pw = new PrintWriter(file);
         crawler.getListDataSource().forEach(pw::println);
-
         pw.close();
     }
 }
